@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Game Development 2026</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a4a);
+      color: #f0f0f5;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container { max-width: 800px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2.2rem; margin-bottom: 8px; color: #ffd166; }
+    header p { color: #b8b8d0; }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 18px;
+      transition: transform 0.2s, background 0.2s;
+    }
+    .card:hover { transform: translateY(-3px); background: rgba(255, 255, 255, 0.1); }
+    .card h2 { font-size: 1.3rem; margin-bottom: 6px; color: #06d6a0; }
+    .card a { color: #ffd166; text-decoration: none; }
+    .card a:hover { text-decoration: underline; }
+    .sublist { list-style: none; margin-top: 10px; padding-left: 12px; border-left: 2px solid rgba(255,255,255,0.15); }
+    .sublist li { margin: 6px 0; }
+    .sublist a { color: #8ecae6; text-decoration: none; }
+    .sublist a:hover { text-decoration: underline; }
+    .pending { color: #b8b8d0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Computer Game Development</h1>
+      <p>ผลงานประจำวิชา ปีการศึกษา 2026</p>
+      <p>นายธันว์ สว่างศรี</p>
+      <p>รหัส 673380078-7</p>
+    </header>
+
+    <div class="card">
+      <h2>Lab 1: แนะนำตัวเอง</h2>
+      <a href="lab1.html">ไปที่ lab1.html</a>
+    </div>
+
+    <div class="card">
+      <h2>Lab 2: My First 2D Game</h2>
+      <ul class="sublist">
+        <li>ภารกิจ 1: <a href="game21.html">game21.html</a></li>
+        <li>ภารกิจ 2: <a href="game22.html">game22.html</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Lab 3 - Lab 6</h2>
+      <ul class="sublist">
+        <li class="pending">Lab 3: (รอดำเนินการ)</li>
+        <li class="pending">Lab 4: (รอดำเนินการ)</li>
+        <li class="pending">Lab 5: (รอดำเนินการ)</li>
+        <li class="pending">Lab 6: (รอดำเนินการ)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
